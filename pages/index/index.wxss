@@ -1,5 +1,5 @@
 /**index.wxss**/
-.userinfo {
+/* .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,4 +18,44 @@
 
 .usermotto {
   margin-top: 200px;
+} */
+
+.haibao{
+  /* width: 500rpx; */
+  margin: 20px;
+  height: 350rpx;
+  border: silver 1px solid;
+  border-radius: 10px;
+  text-align: center;
 }
+
+.gonggao {
+  margin: 20px;
+  height: 200rpx;
+  border: black 1px dashed;
+  text-align: center;
+}
+.options {
+  margin: 20px;
+}
+.option {
+  /* float: left; */  
+  display: flex;
+  width: 45%;
+  height: 75px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border: black 1px solid;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+}
+.paotui, .qiuzhu {
+  float: left;
+}
+
+.xianzhi, .biaobai {
+  float: right;
+}
+
+

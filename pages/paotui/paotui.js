@@ -5,6 +5,38 @@ Page({
    * 页面的初始数据
    */
   data: {
+    paotuiOrderList:[
+      {
+        price : 2.0,
+        category : "快递",
+        genderLimit : "限男生",
+        isBig : "是",
+        getAddress: "兴庆校区西12申通快递",
+        sendtoAddress : "主楼E座808",
+        sendtoTime : "2020-2-28 10:30-12:30",
+        remarker : "到了提前打电话"
+      },
+      {
+        price: 5.0,
+        category: "送取",
+        genderLimit: "不限",
+        isBig: "否",
+        getAddress: "钱学森图书馆",
+        sendtoAddress: "软件学院机房",
+        sendtoTime: "2020-3-2 10:30-12:30",
+        remarker: "到了提前打电话"
+      },
+      {
+        price: 1.0,
+        category: "快递",
+        genderLimit: "不限",
+        isBig: "否",
+        getAddress: "兴庆校区西12申通快递",
+        sendtoAddress: "主楼E座808",
+        sendtoTime: "2020-2-28 10:30-12:30",
+        remarker: "到了提前打电话"
+      }
+    ],
 
   },
 

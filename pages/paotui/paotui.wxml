@@ -1,2 +1,16 @@
 <!--Pages/paotui/paotui.wxml-->
-<text>Pages/paotui/paotui.wxml</text>
+<view class="paotuiContainer">
+  <!-- 我是跑腿页面 -->
+  <view class="paotuiOrder" wx:for="{{paotuiOrderList}}">
+    <view class="price">¥ {{item.price}}</view>
+    <view class="paotuiCategory">{{item.category}}</view>
+    <view class="contentItem">性别要求：{{item.genderLimit}}</view>
+    <view class="contentItem">是否大件：{{item.isBig}}</view>
+    <view class="contentItem">取件地址：{{item.getAddress}}</view>
+    <view class="contentItem">送达地址：{{item.sendtoAddress}}</view>
+    <view class="contentItem">送达时间：{{item.sendtoTime}}</view>
+    <view class="remarker">小纸条：{{item.remarker}}</view>
+    <button class="help">帮忙</button>
+  </view>
+
+</view>

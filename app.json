@@ -1,14 +1,30 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/paotui/paotui",
+    "pages/todo/todo"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Hi 便校园",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"主页"
+      },
+      {
+        "pagePath": "pages/todo/todo",
+        "text": "广场"
+      },
+      {
+        "pagePath": "pages/todo/todo",
+        "text": "我"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json"
 }

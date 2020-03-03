@@ -23,12 +23,19 @@
 .haibao{
   /* width: 500rpx; */
   margin: 20px;
-  height: 350rpx;
+  height: 200px;
   border: silver 1px solid;
   border-radius: 10px;
   text-align: center;
 }
-
+swiper {
+  height: 200px;
+}
+.adPic {
+  width : 100%;
+  height : 100%;
+  border-radius: 10px; 
+}
 .gonggao {
   margin: 20px;
   height: 200rpx;

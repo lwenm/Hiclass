@@ -14,14 +14,19 @@
 <view class="indexContainer">
 
   <view class="haibao">
-    <swiper class="indexSwiper" indicator-dots="true" indicator-color="silver">
-      <swiper-item>海报1</swiper-item>
-      <swiper-item>海报2</swiper-item>
-      <swiper-item>海报3</swiper-item>
+    <swiper class="indexSwiper" indicator-dots="true" indicator-color="silver" autoplay="true">
+      <swiper-item>
+        <image class="adPic" src="/images/advertisement/huaweiad.jpg" />
+      </swiper-item>
+      <swiper-item>
+        <image class="adPic" src="/images/advertisement/ad.jpg" />
+      </swiper-item>
+      <swiper-item>广告位招租，联系微信：13289341606</swiper-item>
     </swiper>
   </view>
   <view class="gonggao">
     公告栏
+    <view>{{localApp.globalData.userInfo}}</view>
   </view>
   <view class="options">
     <view>
@@ -38,4 +43,6 @@
     </view>
   </view>
 
+  <view class="bottom-nav">
+  </view>
 </view>

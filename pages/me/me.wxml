@@ -1,0 +1,6 @@
+<!--pages/me/me.wxml-->
+<view class="meContainer">
+<view class="login-btn-container">
+  <button wx:if="{{app.globalData.loginStatus==0}} " class="login-btn ">微信一键登录</button>
+</view>
+</view>

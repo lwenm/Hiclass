@@ -4,7 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-
   },
   //事件处理函数
   gotoPaotui: function() {
@@ -13,6 +12,12 @@ Page({
     })
   },
   onLoad: function () {
+    // console.log("走到onLoad方法了");
+    // console.log("app.globalData.userInfo:");
+    // console.log(app.globalData.userInfo);
+    // console.log("this.data.canIUse:");
+    // console.log(this.data.canIUse);
+
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

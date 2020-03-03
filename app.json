@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/paotui/paotui",
-    "pages/todo/todo"
+    "pages/todo/todo",
+    "pages/ground/ground",
+    "pages/message/message",
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,18 +13,32 @@
     "navigationBarTitleText": "Hi 便校园",
     "navigationBarTextStyle": "black"
   },
-  "tabBar":{
-    "list":[
+  "tabBar": {
+    "color" : "#000000",
+    "selectedColor" : "#000000",
+    "list": [
       {
-        "pagePath":"pages/index/index",
-        "text":"主页"
+        "selectedIconPath": "/images/navicons/solid/sm-home.png",
+        "iconPath": "/images/navicons/outline/md-home.png",
+        "pagePath": "pages/index/index",
+        "text": "主页"
       },
       {
-        "pagePath": "pages/todo/todo",
+        "selectedIconPath": "/images/navicons/solid/sm-office-building.png",
+        "iconPath": "/images/navicons/outline/md-office-building.png",
+        "pagePath": "pages/ground/ground",
         "text": "广场"
       },
       {
-        "pagePath": "pages/todo/todo",
+        "selectedIconPath": "/images/navicons/solid/sm-annotation.png",
+        "iconPath": "/images/navicons/outline/md-annotation.png",
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "selectedIconPath": "/images/navicons/solid/sm-user.png",
+        "iconPath": "/images/navicons/outline/md-user.png",
+        "pagePath": "pages/me/me",
         "text": "我"
       }
     ]

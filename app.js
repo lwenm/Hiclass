@@ -1,6 +1,6 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function() {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -9,7 +9,16 @@ App({
     // 登录
     wx.login({
       success: res => {
+
+          this.loginStatus = 1;
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        // wx.request({
+        //   url: 'http://112.65.48.66:8090/validate',
+        //   data:{
+        //     js_code:res.code
+        //   }
+        // })
+        console.log(res);
       }
     })
     // 获取用户信息
@@ -34,6 +43,8 @@ App({
     })
   },
   globalData: {
+    loginStatus:0,
+    infoStatus:0,
     userInfo: null
   }
 })

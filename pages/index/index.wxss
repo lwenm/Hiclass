@@ -19,50 +19,83 @@
 .usermotto {
   margin-top: 200px;
 } */
+/* page {
+  background: #d8d8d8;
+} */
+.option-img {
+  width: 80rpx;
+  height: 80rpx;
+}
 
 .haibao{
   /* width: 500rpx; */
-  margin: 20px;
-  height: 200px;
-  border: silver 1px solid;
-  border-radius: 10px;
+  margin: 20rpx;
+  height: 400rpx;
+  border-radius: 10rpx;
   text-align: center;
 }
 swiper {
-  height: 200px;
+  height: 400rpx;
 }
 .adPic {
   width : 100%;
   height : 100%;
-  border-radius: 10px; 
+  border-radius: 10rpx; 
 }
 .gonggao {
-  margin: 20px;
-  height: 200rpx;
-  border: black 1px dashed;
+  margin: 20rpx;
+  height: 350rpx;
+  border: black 1rpx dashed;
   text-align: center;
 }
 .options {
-  margin: 20px;
+  margin: 20rpx;
 }
 .option {
-  /* float: left; */  
-  display: flex;
   width: 45%;
-  height: 75px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  border: black 1px solid;
-  /* text-align: center; */
-  align-items: center;
-  justify-content: center;
+  margin-top: 2rpx;
+  margin-bottom: 2rpx;
+  border: silver 1rpx solid;
+  border-radius: 20rpx;
+  padding: 2%;
 }
-.paotui, .qiuzhu {
+
+.option-click {
+  /* width: 45%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: silver 1px solid;
+  border-radius: 20px;
+  padding: 2%; */
+  background: silver;
+}
+/* button {
+  position: static;
+  display: block;
+  padding: 0px;
+  width: 166px;
+  height: 70px;
+} */
+.paotui, .xianzhi {
   float: left;
 }
 
-.xianzhi, .biaobai {
+.qiuzhu, .biaobai {
   float: right;
+}
+
+.option-content {
+  display: inline-block;
+  margin-left: 10rpx;
+}
+
+.option-name {
+    font-size: 1.3125rem;
+}
+
+.option-description {
+  font-size: 0.8125rem;
+  color: #999;
 }
 
 

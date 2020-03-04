@@ -10,7 +10,7 @@ App({
     wx.login({
       success: res => {
 
-          this.loginStatus = 1;
+          this.globalData.loginStatus = 1;
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
         // wx.request({
         //   url: 'http://112.65.48.66:8090/validate',
@@ -18,6 +18,7 @@ App({
         //     js_code:res.code
         //   }
         // })
+        console.log(this.globalData);
         console.log(res);
       }
     })

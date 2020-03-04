@@ -1,6 +1,50 @@
 <!--pages/me/me.wxml-->
 <view class="meContainer">
-<view class="login-btn-container">
-  <button wx:if="{{app.globalData.loginStatus==0}} " class="login-btn ">微信一键登录</button>
-</view>
+  <!-- <view wx:if="{{app.globalData.loginStatus == 0}}" class="login-btn-container">
+    <button class="login-btn ">微信一键登录</button>
+  </view> -->
+  <view wx:if="{{app.globalData.loginStatus == 0}}" class="login-btn-container">
+    <button class="login-btn">微信一键登录</button>
+  </view>
+
+  <view wx:else class="user-info">
+    <view class="base-info">
+
+      <view class="bref">
+        <view class="bref-content">
+          <view class="nick-name">{{userInfo.nickName}}</view>
+          <view class="intro">这里是简介</view>
+        </view>
+
+        <image class="avatar" src="{{userInfo.avatarUrl}}" />
+      </view>
+      <view class="statistic">
+        <view class="issue sta-item">
+          <view class="amount">69</view>
+          <view class="category">发布</view>
+        </view>
+
+        <view class="like sta-item">
+          <view class="amount">121</view>
+          <view class="category">关注</view>
+        </view>
+
+        <view class="fans sta-item">
+          <view class="amount">143</view>
+          <view class="category">粉丝</view>
+        </view>
+      </view>
+
+    </view>
+
+    <view class="menu">
+    <button>个人信息</button>
+    <button></button>
+    </view>
+
+    <view class="feedback">
+    <button>投诉建议</button>
+    <button>联系我们</button>
+    </view>
+  </view>
 </view>

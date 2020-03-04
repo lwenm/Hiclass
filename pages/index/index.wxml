@@ -21,26 +21,46 @@
       <swiper-item>
         <image class="adPic" src="/images/advertisement/ad.jpg" />
       </swiper-item>
-      <swiper-item>广告位招租，联系微信：13289341606</swiper-item>
     </swiper>
   </view>
   <view class="gonggao">
     公告栏
-    <view>{{localApp.globalData.userInfo}}</view>
   </view>
   <view class="options">
-    <view>
-      <button class="option paotui" bindtap="gotoPaotui">跑腿</button>
+  
+
+    <view class="option paotui" bindtap="gotoPaotui" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
+      <image class="option-img" src="/images/index/paotui.png"></image>
+      <view class="option-content">
+        <view class="option-name">跑腿</view>
+        <view class="option-description">快递物件取送</view>
+      </view>
     </view>
-    <view>
-      <button class="option xianzhi">闲置</button>
+
+    <view class="option qiuzhu" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
+      <image class="option-img" src="/images/index/qiuzhu.png"></image>
+      <view class="option-content">
+        <view class="option-name">求助</view>
+        <view class="option-description">伸出爱心圆手</view>
+      </view>
     </view>
-    <view>
-      <button class="option qiuzhu">求助</button>
+
+    <view class="option paotui" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
+      <image class="option-img" src="/images/index/xianzhi.png"></image>
+      <view class="option-content">
+        <view class="option-name">闲置</view>
+        <view class="option-description">闲置交换买卖</view>
+      </view>
     </view>
-    <view>
-      <button class="option biaobai">表白墙</button>
+
+    <view class="option biaobai" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
+      <image class="option-img" src="/images/index/biaobai.png"></image>
+      <view class="option-content">
+        <view class="option-name">表白墙</view>
+        <view class="option-description">给TA的一封情书</view>
+      </view>
     </view>
+
   </view>
 
   <view class="bottom-nav">

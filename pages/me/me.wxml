@@ -1,8 +1,6 @@
 <!--pages/me/me.wxml-->
 <view class="meContainer">
-  <!-- <view wx:if="{{app.globalData.loginStatus == 0}}" class="login-btn-container">
-    <button class="login-btn ">微信一键登录</button>
-  </view> -->
+
   <view wx:if="{{app.globalData.loginStatus == 0}}" class="login-btn-container">
     <button class="login-btn">微信一键登录</button>
   </view>
@@ -37,14 +35,12 @@
 
     </view>
 
-    <view class="menu">
-    <button>个人信息</button>
-    <button></button>
+    <view class="bubble myInfo">
+      <view class="title">个人信息</view>
+      <view class="opreration"></view>
     </view>
 
-    <view class="feedback">
-    <button>投诉建议</button>
-    <button>联系我们</button>
-    </view>
+
   </view>
+
 </view>

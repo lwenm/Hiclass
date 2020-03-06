@@ -27,7 +27,6 @@
     公告栏
   </view>
   <view class="options">
-  
 
     <view class="option paotui" bindtap="gotoPaotui" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
       <image class="option-img" src="/images/index/paotui.png"></image>
@@ -37,7 +36,7 @@
       </view>
     </view>
 
-    <view class="option qiuzhu" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
+    <view class="option qiuzhu" bindtap="gotoQiuzhu" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
       <image class="option-img" src="/images/index/qiuzhu.png"></image>
       <view class="option-content">
         <view class="option-name">求助</view>
@@ -45,7 +44,7 @@
       </view>
     </view>
 
-    <view class="option paotui" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
+    <view class="option xianzhi" bindtap="gotoXianzhi" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
       <image class="option-img" src="/images/index/xianzhi.png"></image>
       <view class="option-content">
         <view class="option-name">闲置</view>
@@ -53,7 +52,7 @@
       </view>
     </view>
 
-    <view class="option biaobai" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
+    <view class="option biaobai" bindtap="gotoBiaobai" hover-class="option-click" hover-start-time="10" hover-stay-time="100">
       <image class="option-img" src="/images/index/biaobai.png"></image>
       <view class="option-content">
         <view class="option-name">表白墙</view>

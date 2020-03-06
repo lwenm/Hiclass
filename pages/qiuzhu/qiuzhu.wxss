@@ -1,0 +1,8 @@
+/* pages/qiuzhu/qiuzhu.wxss */
+.todoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+  color: silver;
+}

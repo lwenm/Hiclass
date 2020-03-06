@@ -1,39 +1,15 @@
-/**index.wxss**/
-/* .userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
-} */
-/* page {
-  background: #d8d8d8;
-} */
 .option-img {
   width: 80rpx;
   height: 80rpx;
 }
 
-.haibao{
-  /* width: 500rpx; */
+.haibao {
   margin: 20rpx;
   height: 400rpx;
   border-radius: 10rpx;
   text-align: center;
 }
+
 swiper {
   height: 400rpx;
 }
@@ -53,29 +29,18 @@ swiper {
 }
 .option {
   width: 45%;
-  margin-top: 2rpx;
+  margin-top: 10rpx;
   margin-bottom: 2rpx;
   border: silver 1rpx solid;
   border-radius: 20rpx;
   padding: 2%;
+  box-shadow: 6rpx 6rpx 6rpx;
 }
 
 .option-click {
-  /* width: 45%;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: silver 1px solid;
-  border-radius: 20px;
-  padding: 2%; */
   background: silver;
 }
-/* button {
-  position: static;
-  display: block;
-  padding: 0px;
-  width: 166px;
-  height: 70px;
-} */
+
 .paotui, .xianzhi {
   float: left;
 }
@@ -97,5 +62,3 @@ swiper {
   font-size: 0.8125rem;
   color: #999;
 }
-
-

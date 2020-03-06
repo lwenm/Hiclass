@@ -6,17 +6,31 @@ Page({
   data: {
   },
   //事件处理函数
-  gotoPaotui: function() {
+  gotoPaotui: function(event) {
     wx.navigateTo({
       url: '../paotui/paotui'
     })
   },
+
+  gotoQiuzhu: function (event) {
+    wx.navigateTo({
+      url: '../qiuzhu/qiuzhu',
+    })
+  },
+
+  gotoXianzhi: function(event) {
+    wx.navigateTo({
+      url: '../xianzhi/xianzhi',
+    })
+  },
+
+  gotoBiaobai: function(event) {
+    wx.navigateTo({
+      url: '../biaobai/biaobai',
+    })
+  },
+
   onLoad: function () {
-    // console.log("走到onLoad方法了");
-    // console.log("app.globalData.userInfo:");
-    // console.log(app.globalData.userInfo);
-    // console.log("this.data.canIUse:");
-    // console.log(this.data.canIUse);
 
     if (app.globalData.userInfo) {
       this.setData({

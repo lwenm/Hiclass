@@ -5,7 +5,10 @@
     "pages/todo/todo",
     "pages/ground/ground",
     "pages/message/message",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/biaobai/biaobai",
+    "pages/qiuzhu/qiuzhu",
+    "pages/xianzhi/xianzhi"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,8 +17,8 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color" : "#000000",
-    "selectedColor" : "#000000",
+    "color": "#000000",
+    "selectedColor": "#000000",
     "list": [
       {
         "selectedIconPath": "/images/navicons/solid/sm-home.png",
@@ -26,13 +29,13 @@
       {
         "selectedIconPath": "/images/navicons/solid/sm-office-building.png",
         "iconPath": "/images/navicons/outline/md-office-building.png",
-        "pagePath": "pages/ground/ground",
+        "pagePath": "pages/todo/todo",
         "text": "广场"
       },
       {
         "selectedIconPath": "/images/navicons/solid/sm-annotation.png",
         "iconPath": "/images/navicons/outline/md-annotation.png",
-        "pagePath": "pages/message/message",
+        "pagePath": "pages/todo/todo",
         "text": "消息"
       },
       {

@@ -35,9 +35,78 @@
 
     </view>
 
-    <view class="bubble myInfo">
+    <view class="bubble">
       <view class="title">个人信息</view>
-      <view class="opreration"></view>
+      <view class="operation">已完善</view>
+      <view class="class-info">
+        <view class="info-item">姓名：徐平</view>
+        <view class="info-item">学校：西安交通大学</view>
+        <view class="info-item">校区：兴庆校区</view>
+        <view class="info-item">专业：软件工程</view>
+        <view class="info-item">年级：2018级</view>
+        <view class="info-item">班级：8095</view>
+      </view>
+    </view>
+
+    <view class="bubble">
+      <view class="title">我发起的</view>
+      <view class="operation">查看全部</view>
+      <view class="fb-container">
+        <view class="option" bindtap="">
+          <image class="option-icon" src="/images/index/paotui.png" />
+          <view class="option-text">跑腿</view>
+          <view class="option-amount">2</view>
+        </view>
+
+        <view class="option" bindtap="">
+          <image class="option-icon" src="/images/index/qiuzhu.png" />
+          <view class="option-text">求助</view>
+          <view class="option-amount">0</view>
+        </view>
+
+        <view class="option" bindtap="">
+          <image class="option-icon" src="/images/index/xianzhi.png" />
+          <view class="option-text">闲置</view>
+          <view class="option-amount">1</view>
+        </view>
+
+        <view class="option" bindtap="">
+          <image class="option-icon" src="/images/index/biaobai.png" />
+          <view class="option-text">表白墙</view>
+          <view class="option-amount">0</view>
+        </view>
+      </view>
+    </view>
+
+
+    <view class="bubble">
+      <view class="title">我帮忙的</view>
+      <view class="operation">查看全部</view>
+      <view class="bm-container">
+        <view class="option" bindtap="">
+          <image class="option-icon" src="/images/index/paotui.png" />
+          <view class="option-text">跑腿</view>
+          <view class="option-amount">2</view>
+        </view>
+
+        <view class="option" bindtap="">
+          <image class="option-icon" src="/images/index/qiuzhu.png" />
+          <view class="option-text">求助</view>
+          <view class="option-amount">3</view>
+        </view>
+
+        <view class="option" bindtap="">
+          <image class="option-icon" src="/images/index/xianzhi.png" />
+          <view class="option-text">闲置</view>
+          <view class="option-amount">1</view>
+        </view>
+
+        <view class="option" bindtap="">
+          <image class="option-icon" src="/images/index/biaobai.png" />
+          <view class="option-text">表白墙</view>
+          <view class="option-amount">0</view>
+        </view>
+      </view>
     </view>
 
 

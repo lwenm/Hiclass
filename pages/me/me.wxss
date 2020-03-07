@@ -16,14 +16,13 @@ page {
 
 .base-info {
   background-color: white;
-  margin: 20rpx;
-  border-radius: 15rpx;
 }
 
 .bref {
   position: relative;
   width: 100%;
   height: 145rpx;
+  margin-bottom: 10rpx;
 }
 
 .bref-content {
@@ -65,4 +64,58 @@ page {
 
 .fans {
   margin-left: 25%;
+}
+
+.bubble {
+  position: relative;
+  background-color: white;
+  margin: 30rpx;
+  border-radius: 20rpx;
+  box-shadow: 15rpx 15rpx 30rpx;
+}
+
+.title {
+  display: inline-block;
+  margin: 20rpx;
+}
+
+.operation {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  font-size: 0.8125rem;
+  color: #999;
+}
+
+.info-item {
+  display: inline-block;
+  margin: 20rpx;
+  width: 300rpx;
+  font-size: 0.8125rem;
+  color: #999;
+}
+
+.fb-container,.bm-container {
+  margin-left: 50rpx;
+}
+
+.option {
+  display: inline-block;
+  width: 160rpx;
+}
+
+.option-icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.option-text {
+  color: #999;
+  font-size: .8125rem;
+}
+
+.option-amount {
+  color: green;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
 }

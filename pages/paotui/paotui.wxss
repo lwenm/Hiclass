@@ -16,12 +16,9 @@
 
 .paotuiOrder {
   position: relative;
-  margin-left: 30rpx;
-  margin-right: 30rpx; 
-  margin-top: 30rpx;
   border: silver 1rpx solid;
   border-radius: 10rpx;
-  box-shadow: 5rpx 5rpx 10rpx;
+  box-shadow: 5rpx 5rpx 10rpx silver;
 }
 
 .price {

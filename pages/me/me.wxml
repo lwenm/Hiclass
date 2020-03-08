@@ -16,36 +16,7 @@
 
         <image class="avatar" src="{{userInfo.avatarUrl}}" />
       </view>
-      <view class="statistic">
-        <view class="issue sta-item">
-          <view class="amount">69</view>
-          <view class="category">发布</view>
-        </view>
 
-        <view class="like sta-item">
-          <view class="amount">121</view>
-          <view class="category">关注</view>
-        </view>
-
-        <view class="fans sta-item">
-          <view class="amount">143</view>
-          <view class="category">粉丝</view>
-        </view>
-      </view>
-
-    </view>
-
-    <view class="bubble">
-      <view class="title">个人信息</view>
-      <view class="operation">已完善</view>
-      <view class="class-info">
-        <view class="info-item">姓名：徐平</view>
-        <view class="info-item">学校：西安交通大学</view>
-        <view class="info-item">校区：兴庆校区</view>
-        <view class="info-item">专业：软件工程</view>
-        <view class="info-item">年级：2018级</view>
-        <view class="info-item">班级：8095</view>
-      </view>
     </view>
 
     <view class="bubble">
@@ -106,6 +77,19 @@
           <view class="option-text">表白墙</view>
           <view class="option-amount">0</view>
         </view>
+      </view>
+    </view>
+
+    <view class="bubble">
+      <view class="title">个人信息</view>
+      <view class="operation">已完善</view>
+      <view class="class-info">
+        <view class="info-item">姓名：徐平</view>
+        <view class="info-item">学校：西安交通大学</view>
+        <view class="info-item">校区：兴庆校区</view>
+        <view class="info-item">专业：软件工程</view>
+        <view class="info-item">年级：2018级</view>
+        <view class="info-item">班级：8095</view>
       </view>
     </view>
 

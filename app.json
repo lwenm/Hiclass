@@ -3,7 +3,6 @@
     "pages/index/index",
     "pages/paotui/paotui",
     "pages/todo/todo",
-    "pages/ground/ground",
     "pages/message/message",
     "pages/me/me",
     "pages/biaobai/biaobai",
@@ -25,12 +24,6 @@
         "iconPath": "/images/navicons/outline/md-home.png",
         "pagePath": "pages/index/index",
         "text": "主页"
-      },
-      {
-        "selectedIconPath": "/images/navicons/solid/sm-office-building.png",
-        "iconPath": "/images/navicons/outline/md-office-building.png",
-        "pagePath": "pages/todo/todo",
-        "text": "广场"
       },
       {
         "selectedIconPath": "/images/navicons/solid/sm-annotation.png",

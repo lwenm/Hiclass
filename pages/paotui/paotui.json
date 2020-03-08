@@ -1,3 +1,6 @@
 {
+  "usingComponents": {
+    "weui-searchbar": "/components/weui-miniprogram/searchbar/searchbar"
+  },
     "navigationBarTitleText": "跑腿"
 }

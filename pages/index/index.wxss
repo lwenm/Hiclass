@@ -20,7 +20,7 @@ swiper {
 }
 .gonggao {
   margin: 20rpx;
-  height: 350rpx;
+  height: 320rpx;
   border: black 1rpx dashed;
   text-align: center;
 }
@@ -34,7 +34,7 @@ swiper {
   border: silver 1rpx solid;
   border-radius: 20rpx;
   padding: 2%;
-  box-shadow: 6rpx 6rpx 6rpx;
+  box-shadow: 6rpx 6rpx 6rpx silver;
 }
 
 .option-click {

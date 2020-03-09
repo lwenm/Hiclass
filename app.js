@@ -17,8 +17,8 @@ App({
         //     js_code:res.code
         //   }
         // })
-         console.log(null == this.globalData.userInfo);
-         console.log(res);
+        // console.log(null == this.globalData.userInfo);
+        // console.log(res);
       }
     })
     // 获取用户信息
@@ -30,7 +30,7 @@ App({
           this.globalData.loginStatus = 1;
           wx.getUserInfo({
             success: res => {
-               console.log(res);
+              // console.log(res);
               // 可以将 res 发送给后台解码出 unionId
               this.globalData.userInfo = res.userInfo
               this.globalData.myInfoOperation = "已完善";
@@ -47,9 +47,28 @@ App({
     })
   },
   globalData: {
-    loginStatus:0,
-    infoStatus:0,
-    myInfoOperation:"待完善",
-    userInfo: null
+    loginStatus: 0,
+    infoStatus: 0,
+    myInfoOperation: "待完善",
+    userInfo: null,
+    tabbarList: [
+      {
+        "selectedIconPath": "/images/navicons/solid/sm-home.png",
+        "iconPath": "/images/navicons/outline/md-home.png",
+        "text": "主页"
+      },
+      {
+        "selectedIconPath": "/images/navicons/solid/sm-annotation.png",
+        "iconPath": "/images/navicons/outline/md-annotation.png",
+        "text": "消息",
+        badge:'5'
+      },
+      {
+        "selectedIconPath": "/images/navicons/solid/sm-user.png",
+        "iconPath": "/images/navicons/outline/md-user.png",
+        "text": "我",
+        dot: true
+      },
+    ]
   }
 })

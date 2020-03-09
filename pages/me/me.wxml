@@ -49,7 +49,6 @@
       </view>
     </view>
 
-
     <view class="bubble">
       <view class="title">我帮忙的</view>
       <view class="operation">查看全部</view>
@@ -93,7 +92,7 @@
       </view>
     </view>
 
-
   </view>
 
+<weui-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{app.globalData.tabbarList}}" bindchange="tabChange"></weui-tabbar>
 </view>

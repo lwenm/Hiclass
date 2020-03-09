@@ -1,6 +1,6 @@
 <!--Pages/paotui/paotui.wxml-->
 <view class="paotuiContainer">
-<weui-searchbar cancel="false" search="{{search}}"></weui-searchbar>
+<weui-searchbar search="{{search}}"></weui-searchbar>
   <!-- 我是跑腿页面 -->
   <view class="paotuiOrder" wx:for="{{paotuiOrderList}}">
     <view class="price">¥ {{item.price}}</view>

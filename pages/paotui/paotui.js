@@ -5,16 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    paotuiOrderList:[
-      {
-        price : 2.0,
-        category : "快递",
-        genderLimit : "限男生",
-        isBig : "是",
+    paotuiOrderList: [{
+        price: 2.0,
+        category: "快递",
+        genderLimit: "限男生",
+        isBig: "是",
         getAddress: "兴庆校区西12申通快递",
-        sendtoAddress : "主楼E座808",
-        sendtoTime : "2020-2-28 10:30-12:30",
-        remarker : "到了提前打电话"
+        sendtoAddress: "主楼E座808",
+        sendtoTime: "2020-2-28 10:30-12:30",
+        remarker: "到了提前打电话"
       },
       {
         price: 5.0,
@@ -40,62 +39,62 @@ Page({
 
   },
 
-search:function() {
+  search: function() {
 
-},
+  },
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function(options) {
 
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
+  onReady: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
+  onShow: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
+  onHide: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
+  onUnload: function() {
 
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
+  onPullDownRefresh: function() {
 
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
+  onReachBottom: function() {
 
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
+  onShareAppMessage: function() {
 
   }
 })

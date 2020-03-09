@@ -62,6 +62,7 @@
 
   </view>
 
-  <view class="bottom-nav">
-  </view>
+<weui-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{globalData.tabbarList}}" bindchange="tabChange"></weui-tabbar>
+
+
 </view>

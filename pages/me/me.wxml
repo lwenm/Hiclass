@@ -79,7 +79,7 @@
       </view>
     </view>
 
-    <view class="bubble">
+    <view class="bubble setting">
       <view class="title">个人信息</view>
       <view class="operation">已完善</view>
       <view class="class-info">
@@ -92,7 +92,7 @@
       </view>
     </view>
 
+
   </view>
 
-<weui-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{app.globalData.tabbarList}}" bindchange="tabChange"></weui-tabbar>
 </view>

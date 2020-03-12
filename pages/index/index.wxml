@@ -1,16 +1,3 @@
-<!--index.wxml-->
-<!-- <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view> -->
 <view class="indexContainer">
 
   <view class="haibao">
@@ -56,13 +43,10 @@
       <image class="option-img" src="/images/index/biaobai.png"></image>
       <view class="option-content">
         <view class="option-name">表白墙</view>
-        <view class="option-description">给TA的一封情书</view>
+        <view class="option-description">勇敢告诉TA</view>
       </view>
     </view>
 
   </view>
-
-<weui-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{globalData.tabbarList}}" bindchange="tabChange"></weui-tabbar>
-
 
 </view>

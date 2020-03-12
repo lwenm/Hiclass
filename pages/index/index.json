@@ -1,5 +1,4 @@
 {
   "usingComponents": {
-    "weui-tabbar" : "/components/weui-miniprogram/tabbar/tabbar"
   }
 }

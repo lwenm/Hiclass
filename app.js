@@ -50,25 +50,7 @@ App({
     loginStatus: 0,
     infoStatus: 0,
     myInfoOperation: "待完善",
-    userInfo: null,
-    tabbarList: [
-      {
-        "selectedIconPath": "/images/navicons/solid/sm-home.png",
-        "iconPath": "/images/navicons/outline/md-home.png",
-        "text": "主页"
-      },
-      {
-        "selectedIconPath": "/images/navicons/solid/sm-annotation.png",
-        "iconPath": "/images/navicons/outline/md-annotation.png",
-        "text": "消息",
-        badge:'5'
-      },
-      {
-        "selectedIconPath": "/images/navicons/solid/sm-user.png",
-        "iconPath": "/images/navicons/outline/md-user.png",
-        "text": "我",
-        dot: true
-      },
-    ]
+    userInfo: null
+   
   }
 })

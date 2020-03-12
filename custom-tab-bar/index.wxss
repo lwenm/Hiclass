@@ -1,5 +1,7 @@
 /* custom-tab-bar/index.wxss */
+
 /* components/tabbar/tabbar.wxss */
+
 .tab-bar {
   position: fixed;
   bottom: 0;
@@ -37,4 +39,21 @@
 
 .tab-bar-item cover-view {
   font-size: 10px;
+}
+
+cover-view {
+  position: relative;
+}
+
+.unread-msg-bubble {
+  position: absolute;
+  top: 10rpx;
+  right: 75rpx;
+  width: 25rpx;
+  height: 25rpx;
+  padding: 5rpx;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-weight: bold;
 }

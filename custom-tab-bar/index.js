@@ -1,4 +1,12 @@
 Component({
+
+  properties: {
+    unReadMsg: {
+      type: Number,
+      value: 1
+    },
+  },
+
   data: {
     selected: 0,
     color: "#000000",

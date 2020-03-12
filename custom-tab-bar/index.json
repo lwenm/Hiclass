@@ -1,4 +1,6 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "weui-badge": "/components/weui-miniprogram/badge/badge"
+  }
 }

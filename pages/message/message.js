@@ -5,7 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    msgList: [
+      { 
+        userId:123456789,
+        avatarUrl: "https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eowd50EcFXavF20CPY3W1MQ6oZjYDmqXiaOUpG1h93DM7BXAWkd2CwQAdHGjyOQmxWbpMWpWjswj0g/132",
+      nickName:"国际砖家",
+      msgContent:"同学你好，给你放到宿舍门口了"},
+      {
+        userId: 123456789,
+        avatarUrl: "https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eowd50EcFXavF20CPY3W1MQ6oZjYDmqXiaOUpG1h93DM7BXAWkd2CwQAdHGjyOQmxWbpMWpWjswj0g/132",
+        nickName: "国际砖家1",
+        msgContent: "测试一下这个内容"
+      },
+      {
+        userId: 123456789,
+        avatarUrl: "https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eowd50EcFXavF20CPY3W1MQ6oZjYDmqXiaOUpG1h93DM7BXAWkd2CwQAdHGjyOQmxWbpMWpWjswj0g/132",
+        nickName: "国际砖家2",
+        msgContent: "内容还得做敏感词过滤，真麻烦"
+      }
+      ]
   },
 
   /**

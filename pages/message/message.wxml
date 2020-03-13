@@ -1,2 +1,9 @@
-<!--pages/message/message.wxml-->
-<text>pages/message/message.wxml</text>
+<view class="msg-container">
+  <view class="message" wx:for="{{msgList}}" wx:for-index="index" wx:for-item="item">
+    <image class="avatar" src="{{item.avatarUrl}}"></image>
+    <view class="content">
+      <view class="nick-name">{{item.nickName}}</view>
+      <view class="msg-content">{{item.msgContent}}</view>
+    </view>
+  </view>
+</view>

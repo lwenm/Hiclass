@@ -1,1 +1,29 @@
-/* pages/message/message.wxss */
+/* .message {
+  position: relative;
+} */
+
+.avatar {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+}
+
+.content {
+  display: inline-block;
+  border-bottom: 1rpx rgb(233, 230, 230) solid;
+  width: 80%;
+  margin-left: 20rpx;
+}
+
+.nick-name {
+  font-size: 1rem;
+  margin-top: 20rpx;
+}
+
+.msg-content {
+  font-size: 0.8125rem;
+  color: #999;
+  margin-bottom: 20rpx
+}

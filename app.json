@@ -16,7 +16,9 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "custom": true,
+    "custom": false,
+    "color": "#000000",
+    "selectedColor": "#000000",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -25,7 +27,7 @@
         "selectedIconPath": "/images/navicons/solid/sm-home.png"
       },
       {
-        "pagePath": "pages/todo/todo",
+        "pagePath": "pages/message/message",
         "text": "消息",
         "iconPath": "/images/navicons/outline/md-annotation.png",
         "selectedIconPath": "/images/navicons/solid/sm-annotation.png"
